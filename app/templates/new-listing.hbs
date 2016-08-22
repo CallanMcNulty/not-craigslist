@@ -1,3 +1,4 @@
+{{navbar-component}}
 {{#if model.content}}
   <h3>Choose a category</h3>
   <ul>
@@ -10,26 +11,23 @@
 
   <h3>New Listing in {{model.title}}</h3>
   <form>
-    <div class="form-group">
-      <label for="title">Title</label>
-      {{input value=title id="title"}}
-    </div>
-    <div class="form-group">
-      <label for="price">Price</label>
-      {{input value=price id="price"}}
-    </div>
-    <div class="form-group">
-      <label for="location">Location</label>
-      {{input value=location id="location"}}
-    </div>
-    <div class="form-group">
-      <label for="description">Description</label>
-      {{input value=description id="description"}}
-    </div>
-    <div class="form-group">
-      <label for="photoURL">Enter a photo url</label>
-      {{input value=photoURL id="photoURL"}}
-    </div>
-    <button class="btn" {{action 'save' model}}>Submit</button>
+    <label for="title">posting title</label>
+    {{input value=title id="title"}}
+    <label for="price">price</label>
+    {{input value=price id="price"}}
+    <label for="location">location</label>
+    {{input value=location id="location"}}
+    <br>
+    <br>
+    <label for="description">posting body</label>
+    <br>
+    {{textarea value=description id="description"}}
+    <br>
+    <br>
+    <label for="photoURL">photo url</label>
+    {{input value=photoURL id="photoURL"}}
+    <br>
+    <br>
+    <button {{action 'save' model}}>Submit</button>
   </form>
 {{/if}}

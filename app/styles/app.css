@@ -1,6 +1,3 @@
-ul {
-  list-style: none;
-}
 .listing {
   width: 300px;
   height: 300px;
@@ -33,7 +30,7 @@ ul {
   border-bottom: solid 1px lightgrey;
   margin-bottom: 20px;
 }
-.navbar a {
+a {
   text-decoration: none;
 }
 .home-link {
@@ -44,4 +41,35 @@ ul {
 }
 .post-link {
   float: right;
+}
+.front-page-column {
+  float: left;
+  margin-right: 20px;
+}
+.front-page-column h3 {
+  margin-bottom: 0px;
+  padding: 3px;
+  background-color: #eee;
+  width: 200%;
+  text-align: center;
+  border-top: solid 1px lightgrey;
+  border-bottom: solid 1px lightgrey;
+}
+.title-column {
+  text-align: center;
+  background-color: #eee;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  border-left: solid 1px lightgrey;
+  border-right: solid 1px lightgrey;
+}
+.front-page-column hr {
+  border-color: #fff;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+textarea {
+  width: 500px;
+  height: 200px;
 }
