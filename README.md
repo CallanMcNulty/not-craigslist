@@ -1,7 +1,6 @@
 # Craigslist-clone
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is an ember app which mimics some of the functions of Craigslist. Built using Ember as a means of gaining practice with the framework.
 
 ## Prerequisites
 
